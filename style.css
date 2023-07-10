@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+/* Primary Button */
+.btn {
+  margin-top: 32px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e55473;
+  padding: 20px 43px;
+  color: #fff;
+
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Header Section */
+
+.header-container {
+  width: 1920px;
+  height: 850px;
+  background-color: rgba(229, 84, 115, 0.1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+}
+.header-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 900;
+  text-align: start;
+  padding-top: 197px;
+  padding-left: 240px;
+}
+.header-desc {
+  margin-top: 32px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 634px;
+  text-align: start;
+  margin-left: 240px;
+
+  font-style: normal;
+  line-height: 30px;
+}
+.header-img {
+  width: 635px;
+  height: 800px;
+  margin-top: 50px;
+  margin-right: 240px;
+  margin-left: 97px;
+}
+.header-btn {
+  margin-left: 240px;
+  margin-bottom: 147px;
+  margin-top: 32px;
+}
+/* Rectangle Container Starts Form Here  */
+.rectangle-container {
+  width: 1920px;
+  height: 4867px;
+  background-color: #fff;
+}
+.rectangle-title {
+  margin-top: 178px;
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.rectangle-desc{
+    margin-top: 24px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.rec-container{
+    display: flex;
+    gap: 24px;
+    padding-left: 240px;
+    margin: auto;
+    margin-top: 48px;
+}
+.rectangle{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+
+}
+img{
+    width: 310px;
+height: 428px;
+margin-top: 110px;
+margin-left: 76px;
+margin-right: 78px;
+}
+.rectangle-img1{
+    width: 370px;
+height: 370px;
+margin-top: 117px;
+margin-left: 47px;
+margin-right: 47px;
+margin-bottom: 51px;
+}
+.rectangle1{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.rectangle2{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+
+}
+.rec-container h3{
+    color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+text-decoration-line: underline;
+margin-top: 32px;
+}
+/* Header Banner Start Form here  */
+.header-banner-container{
+    width: 1440px;
+height: 320px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+}
