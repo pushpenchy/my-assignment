@@ -12,8 +12,8 @@
   background-color: #e55473;
   padding: 20px 43px;
   color: #fff;
+  cursor: pointer;
 
-  color: #fff;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -79,70 +79,67 @@
   font-size: 40px;
   font-weight: 800;
 }
-.rectangle-desc{
-    margin-top: 24px;
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-
+.rectangle-desc {
+  margin-top: 24px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
-.rec-container{
-    display: flex;
-    gap: 24px;
-    padding-left: 240px;
-    margin: auto;
-    margin-top: 48px;
+.rec-container {
+  display: flex;
+  gap: 24px;
+  padding-left: 240px;
+  margin: auto;
+  margin-top: 48px;
 }
-.rectangle{
-    width: 464px;
-height: 538px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-
+.rectangle {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
 }
-img{
-    width: 310px;
-height: 428px;
-margin-top: 110px;
-margin-left: 76px;
-margin-right: 78px;
+img {
+  width: 310px;
+  height: 428px;
+  margin-top: 110px;
+  margin-left: 76px;
+  margin-right: 78px;
 }
-.rectangle-img1{
-    width: 370px;
-height: 370px;
-margin-top: 117px;
-margin-left: 47px;
-margin-right: 47px;
-margin-bottom: 51px;
+.rectangle-img1 {
+  width: 370px;
+  height: 370px;
+  margin-top: 117px;
+  margin-left: 47px;
+  margin-right: 47px;
+  margin-bottom: 51px;
 }
-.rectangle1{
-    width: 464px;
-height: 538px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
+.rectangle1 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
 }
-.rectangle2{
-    width: 464px;
-height: 538px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
-
+.rectangle2 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
 }
-.rec-container h3{
-    color: #272727;
-text-align: center;
-font-size: 24px;
-font-weight: 700;
-text-decoration-line: underline;
-margin-top: 32px;
+.rec-container h3 {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  margin-top: 32px;
 }
 /* Header Banner Start Form here  */
-.header-banner-container{
-    width: 1440px;
-height: 320px;
-flex-shrink: 0;
-border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
+.header-banner-container {
+  width: 1440px;
+  height: 320px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
 }
