@@ -137,71 +137,95 @@ img {
 }
 
 /* service-container starts form here  */
-.service-container{
-
-background: rgba(39, 39, 39, 0.05);
-display: flex;
-border-radius: 8px;
-margin-top: 195px;
-margin-left: 240px;
-margin-right: 240px;
-
+.service-container {
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  border-radius: 8px;
+  margin-top: 195px;
+  margin-left: 240px;
+  margin-right: 240px;
 }
 
-
-.services{
+.services {
   width: 1440px;
   height: 320px;
   justify-content: space-between;
   align-items: center;
   text-align: center;
 }
-.ser-img{
+.ser-img {
   width: 88px;
   height: 88px;
   margin-bottom: 24px;
   margin-top: 86px;
-
 }
-.ser-title{
+.ser-title {
   color: rgba(39, 39, 39, 0.8);
-text-align: center;
-font-size: 24px;
-font-weight: 600;
-line-height: 35px;
-
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
 }
 /* banner container starts from here  */
-.banner-container{
+.banner-container {
   border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
-width: 1922px;
-height: 620px;
-justify-content: center;
-align-items: center;
-text-align: center;
+  background: rgba(229, 84, 115, 0.05);
+  width: 1922px;
+  height: 620px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-margin-top: -128px;
-display: flex;
-gap: 215px;
-
+  margin-top: -128px;
+  display: flex;
+  gap: 215px;
 }
-.banner-container-left h1{
+.banner-container-left h1 {
   color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.banner-container-left p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+}
+.banner-container-right img {
+  width: 318px;
+  height: 420px;
+  margin-top: -100px;
+}
+/* portfolio-container starts from here  */
+.portfolio-container{
+  width: 1922px;
+height: 1409px;
+}
+.portfolio-container h1{
+  color: #272727;
+text-align: center;
 font-size: 40px;
 font-weight: 800;
-
+margin-top: 128px;
 }
-.banner-container-left p{
+.portfolio-container p{
   color: rgba(39, 39, 39, 0.60);
+text-align: center;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
-margin-top: 24px;
 }
-.banner-container-right img{
-  width: 318px;
-height: 420px;
-margin-top: -100px;
-
+.portfolio-pic{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 48px;
+  padding: auto;
+  
+}
+.portfolio-pic img{
+  margin: 0;
+  padding: 0;
 }
