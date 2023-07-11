@@ -100,7 +100,7 @@
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
 }
-img {
+.rectangular-imgs {
   width: 310px;
   height: 428px;
   margin-top: 110px;
@@ -242,6 +242,7 @@ img {
   height: 449px;
   align-items: center;
 }
+
 .ad-input {
   display: flex;
   justify-content: center;
@@ -257,6 +258,67 @@ img {
   justify-content: center;
   padding-left: 22px;
   margin-top: 30px;
+}
+.premium-collection{
+  background-color:rgba(229, 84, 115, 0.05)
+
+}
+.premium-collection-content{
+  text-align: center;
+  width: 50%;
+  margin: 1px auto;
+  padding-top:100px;
+}
+.premium-collection-title{
+  font-size: 40px;
+  font-weight: 700;
+  
+}
+.premium-collection-paragraph{
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  color: rgb(79, 77, 77);
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.premium-collection-images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 100px;
+  margin-bottom:130px;
+  padding-top: 50px;
+}
+.premium-collection-img{
+  text-align: center;
+}
+.premium-img-title{
+  /* color: white; */
+  font-size: 30px;
+  padding-top: 10px;
+  font-style: italic;
+  font-weight: 700;
+  /* border-bottom: 2px black solid; */
+}
+.premium-img{
+  border:0px solid black ;
+  border-radius: 50%;
+  width: 350px;
+}
+.premium-collection-img-1{
+ 
+  background-color: rgb(232, 249, 190);
+}
+.premium-collection-img-2 {
+  background-color: rgb(205, 239, 247);
+}
+.premium-collection-img-3{
+  background-color: rgb(248, 192, 195);
+}
+.premium-collection-img-4 {
+  background-color: rgba(244, 248, 159, 0.955);
 }
 .footer-container {
   width: 1920px;
