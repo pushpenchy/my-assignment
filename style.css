@@ -198,34 +198,63 @@ img {
   margin-top: -100px;
 }
 /* portfolio-container starts from here  */
-.portfolio-container{
-  width: 1922px;
-height: 1409px;
+.portfolio-container {
+  width: 1320px;
+  height: 1409px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-top: 128px;
 }
-.portfolio-container h1{
+.portfolio-container h1 {
   color: #272727;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
-margin-top: 128px;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 128px;
+  padding-top: 122px;
 }
-.portfolio-container p{
-  color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+.portfolio-container p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 16px;
 }
-.portfolio-pic{
+.portfolio-pic {
   display: flex;
   align-items: center;
   gap: 24px;
-  justify-content: center;
   margin-top: 48px;
-  padding: auto;
-  
 }
-.portfolio-pic img{
+.portfolio-pic img {
   margin: 0;
   padding: 0;
+}
+/* portfolio-ad starts from here  */
+
+.portfolio-ad {
+  border-radius: 8px;
+  background: url(assets/Rectangle\ 9.png),
+    lightgray 0px -203.444px / 100% 213.755% no-repeat;
+  width: 1320px;
+  height: 449px;
+  align-items: center;
+}
+.ad-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.email {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  justify-content: center;
+  padding-left: 22px;
+  margin-top: 30px;
 }
